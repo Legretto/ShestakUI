@@ -15,7 +15,7 @@ T.UIScale = function()
 		if T.screenHeight >= 2400 then
 			C.general.uiscale = C.general.uiscale * 3
 		elseif T.screenHeight >= 1600 then
-			C.general.uiscale = C.general.uiscale * 2
+			C.general.uiscale = C.general.uiscale
 		end
 		C.general.uiscale = tonumber(string.sub(C.general.uiscale, 0, 5)) -- 8.1 Fix scale bug
 	end
